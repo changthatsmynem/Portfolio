@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 import ProjectBox from "../../components/ProjectBox/ProjectBox";
 import img7 from "../../images/everlasting-projecth.png";
-import img5 from "../../images/everlasting-projecth.png";
+import img5 from "../../images/react-form-manipulation.png";
 import img3 from "../../images/everlasting-projecth.png";
 import img4 from "../../images/everlasting-projecth.png";
 import img1 from "../../images/everlasting-projecth.png";
@@ -33,34 +33,34 @@ function Project() {
               link="https://github.com/JSD4-ProjectH"
             />
             <ProjectBox
-              title="Portfolio Website"
+              title="Mini Project - Form Manipulation"
               img={img5}
-              link="https://github.com/ahmedrohailawan/portfolio_website_using_html_css_and_js"
+              link="https://github.com/changthatsmynem/career-changer-react-assessment"
             />
             <ProjectBox
-              title="Food Delivery Website"
+              title="Exercise Recording WebApp"
               img={img3}
-              link="https://github.com/ahmedrohailawan/Food-Delivery-project"
+              link="https://github.com/JSD4-ProjectH"
             />
             <ProjectBox
-              title="Gym Website"
+              title="Exercise Recording WebApp"
               img={img4}
-              link="https://github.com/ahmedrohailawan/Gym-Project"
+              link="https://github.com/JSD4-ProjectH"
             />
             <ProjectBox
-              title="Alarm Clock using js"
+              title="Exercise Recording WebApp"
               img={img1}
-              link="https://github.com/ahmedrohailawan/Alarm-clock-using-javascript"
+              link="https://github.com/JSD4-ProjectH"
             />
             <ProjectBox
-              title="File downloader using js"
+              title="Exercise Recording WebApp"
               img={img2}
-              link="https://github.com/ahmedrohailawan/File-downloader-with-vanilla-javasctipt"
+              link="https://github.com/JSD4-ProjectH"
             />
             <ProjectBox
-              title="Text to speech using js"
+              title="Exercise Recording WebApp"
               img={img6}
-              link="https://github.com/ahmedrohailawan/Text-to-Speech-Converter-using-JavaScript"
+              link="https://github.com/JSD4-ProjectH"
             />
           </div>
         </div>
