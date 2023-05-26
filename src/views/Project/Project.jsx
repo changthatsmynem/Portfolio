@@ -27,7 +27,7 @@ function Project() {
         <div className="boxes">
           <div className="carousel owl-carousel">
             <ProjectBox
-              title="TextUtils using React"
+              title="Exercise Recording WebApp"
               img={img7}
               demo="https://everlasting.vercel.app/"
               link="https://github.com/JSD4-ProjectH"

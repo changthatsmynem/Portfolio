@@ -33,6 +33,10 @@
     text-align: left;
 }
 
+.services .card .box .icon {
+    padding-top: 35px;
+}
+
 @media only screen and (max-width: 1000px) {
     .services .card{
         margin: 2rem 2rem;

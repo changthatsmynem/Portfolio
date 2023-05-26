@@ -110,7 +110,7 @@ function Navbar() {
         <div className="nav-mobile">
           <Link to="Home" offset={-150}>
             <h2>
-              Portfo<span>lio.</span>
+              Chang<span>Dev.</span>
             </h2>
           </Link>
           <div className="nav-mobile-btn" onClick={toggle}>
