@@ -1,4 +1,4 @@
-.footer{
+.footer {
     font-family: "Readex-Pro", sans-serif;
     background: var(--black-high);
     padding: 1.5rem 0rem;
@@ -7,17 +7,21 @@
     font-size: 1rem;
     width: 100%;
 }
-.footer .author{
+
+.footer .author {
     padding-bottom: 8px;
 }
-.footer .author a{
+
+.footer .author a {
     font-size: 1.3rem;
     color: var(--aqua);
 }
-.footer .author a:hover{
+
+.footer .author a:hover {
     font-size: 1.3rem;
     color: var(--aqua);
 }
-.footer .author i{
+
+.footer .author i {
     font-weight: bold;
 }

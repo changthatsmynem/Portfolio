@@ -1,19 +1,22 @@
-.contact{
+.contact {
     min-height: auto;
     padding: 6rem 3rem;
     font-family: "Readex-Pro", sans-serif;
     background-color: transparent;
 }
-.contact h1{
+
+.contact h1 {
     color: var(--white);
     text-align: center;
     padding-bottom: 2rem;
 }
-.contact .boxes{
+
+.contact .boxes {
     display: flex;
 }
+
 @media only screen and (max-width: 1000px) {
-    .contact .boxes{
+    .contact .boxes {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -21,7 +24,7 @@
 }
 
 @media only screen and (max-width: 780px) {
-    .contact .boxes{
+    .contact .boxes {
         display: block;
     }
 

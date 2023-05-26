@@ -4,35 +4,39 @@
 
 :root {
     --aqua: #05e6ee;
-    --aqua-low:#60aeb0;
-    --white : #ffffff;
+    --aqua-low: #60aeb0;
+    --white: #ffffff;
     --black-low: #0d1321;
     --black-high: #141724;
-    --black-body:#050b17;
+    --black-body: #050b17;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
-html{
+
+html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
 }
-body{
+
+body {
     overflow-x: hidden;
-    background: var(--black-body) ;
+    background: var(--black-body);
     -webkit-tap-highlight-color: transparent;
 }
-.body{
-    max-width: 1400px;
+
+.body {
+    max-width: 100%;
 }
-#loading_start{
-    background:var(--black-body) ;
+
+#loading_start {
+    background: var(--black-body);
     width: 100%;
     height: 100vh;
     z-index: 100;
@@ -45,7 +49,7 @@ body{
     margin: 0 0;
 }
 
-#loading_start p{
+#loading_start p {
     font-size: 2rem;
     color: var(--aqua);
     padding-right: 1rem;
@@ -54,16 +58,15 @@ body{
 }
 
 @media only screen and (max-width: 280px) {
-    html{
+    html {
         overflow-x: scroll;
     }
-    body{
+
+    body {
         overflow-x: scroll;
     }
-    .body{
+
+    .body {
         min-width: 300px;
     }
 }
-
-
-
